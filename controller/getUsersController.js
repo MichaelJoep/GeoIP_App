@@ -30,6 +30,7 @@ exports.getUserIPCong = async (req, res) => {
     return res.status(500).json({message: error.message});
   }
 }
+//https://iplocation-app.vercel.app/api/v1/getUserIP
 
   // let ipAddress = await axios.get(ipURL).then(res => res.json());
                     
