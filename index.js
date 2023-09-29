@@ -5,14 +5,17 @@ const app = express();
 
 const PORT = 5000;
 
-app.use(express.json());
+
 
 let corsOptions = {
     origin: "*",//To allow everyone have access to this route
     optionsSuccessStatus: 200,
     method: "GET"
 }
+
+//middleware functions
 app.use(cors(corsOptions));
+app.use(express.json());
 
 
 //route
