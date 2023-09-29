@@ -37,7 +37,7 @@ exports.getUserIPCong = async (req, res) => {
           ...notFound? {error: "An error has occurred.IP address not found!"}:{}
         })
 
-        console.log(mac_add)
+        //console.log(mac_add)
 
     
     } catch (error) {
